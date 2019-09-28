@@ -27,6 +27,7 @@ html, body {
     color: white;
     font-size: 12px;
     text-align: center;
+    margin-bottom: -1px;
 }
 
 
@@ -45,6 +46,7 @@ body {
     color: white;
     padding: 10px;
     font-size: 30px;
+    font-family: 'Be Vietnam', sans-serif;
     
 }
 
@@ -56,12 +58,14 @@ body {
 .aboutme {
     margin-top: 20px;
     margin-left: 25px;
+    font-family: 'Be Vietnam', sans-serif;
 }
 
 .customcontainer {
     margin-top: 30px;
     border:grey 2px solid;
     background-color: white;
+    margin-bottom: 30px;
 }
 
 #profile {
@@ -69,7 +73,7 @@ body {
     margin-left: 25px;
     margin-right: 25px;
     margin-top: 10px;
-    margin-bottom: 10px;
+    margin-bottom: 5px;
 }
 
 .biotext {
@@ -77,6 +81,8 @@ body {
     margin-right: 25px;
     margin-top: 10px;
     margin-bottom: 25px;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 19px;
 }
 
 
@@ -99,6 +105,8 @@ body {
 
 label {
     display: block;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 19px;
 }
 
 input[type="text"], 
@@ -118,6 +126,8 @@ input[type="submit"]{
     margin-bottom: 25px;
     border: none;
     margin-left: 25px;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 19px;
 }
 
 input[type="submit"]:hover {
