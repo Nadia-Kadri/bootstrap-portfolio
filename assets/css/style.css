@@ -1,4 +1,72 @@
+* {
+    margin: 0;
+}
+
+html, body {
+    height: 100%;
+}
+
+.page-wrap {
+    min-height: 100%;
+    margin-bottom: -60px;
+}
+
+.page-wrap:after {
+    content: "";
+    display: block;
+}
+
+.customfooter, .page-wrap:after {
+    height: 60px;
+}
+
+body {
+    background-image: url(../images/white_background.jpg);
+}
+
+.customnavbar {
+    background-color:rgba(176, 233, 176, 0.767);
+    padding: 0px;
+
+}
+
+#name {
+    background-color: grey;
+    color: white;
+    padding: 10px;
+    font-size: 30px;
+    
+}
+
+#customlinks {
+    margin-left: 70%;
+}
+
+.aboutme {
+    margin-top: 20px;
+    margin-left: 25px;
+}
+
+.customcontainer {
+    margin-top: 30px;
+    border:grey 2px solid;
+    background-color: white;
+}
+
 #profile {
     float: left;
     margin: 25px;
+}
+
+.biotext {
+    margin-left: 25px; 
+}
+
+.customfooter {
+    padding: 20px;
+    border-top: 8px solid rgba(176, 233, 176, 0.767);
+    background-color: grey;
+    color: white;
+    font-size: 12px;
+    text-align: center;
 }

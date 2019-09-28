@@ -6,51 +6,48 @@
     <title>Nadia's Portfolio</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="assets/css/style.css">
-    <link href="https://fonts.googleapis.com/css?family=Be+Vietnam|Big+Shoulders+Text|Open+Sans+Condensed:300&display=swap" rel="stylesheet">
 </head>
 
 <body>
 
-<nav class="navbar navbar-expand-lg navbar-light bg-light">
-    <a class="navbar-brand ml-5" href="index.html">Nadia Kadri</a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+<div class="page-wrap">
+
+<nav class="navbar navbar-expand-lg navbar-light customnavbar">
+    <a class="navbar-brand ml-5" id="name" href="index.html">Nadia Kadri</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation" id="customtoggler">
         <span class="navbar-toggler-icon"></span>
     </button>
     
-    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav mr-auto">
-            <li class="nav-item">
-                <a class="nav-link" href="index.html">About</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="portfolio.html">Portfolio</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="contact.html">Contact</a>
-            </li>
-        </ul>
+    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+        <div class="navbar-nav" id="customlinks">
+            <a class="nav-link" href="index.html">About</a>
+            <a class="nav-link" href="portfolio.html">Portfolio</a>
+            <a class="nav-link" href="contact.html">Contact</a>
+        </div>
     </div>
 </nav>
 
-<div class="clr"></div>
-
-<div class="container">
+<div class="container customcontainer">
     <div class="row">
-        <div class="col-sm-12">
+        <div class="col-sm-12 aboutme">
             <h1>About Me</h1>
         </div> 
+
         <hr>
-    <div class="col-sm-12">
-        <img id="profile" src="assets/images/CpSh33RFRpyuGW2A7wddrQ_thumb_73f 2.jpg" alt="profile" width="190px" height="190px">
-        <p>Hello! My name is Nadia and I am an aspiring software developer. I graduated from UCF in May 2018 with a Bachelor's in Finance and have since been working at Lockheed Martin as a Financial Analyst. By nature, I'm a very analytical and organized person- I survive off of logic. I love finding patterns in the work I do... this is one of the main reasons I am so drawn to coding!</p>
-        <p>When I'm not working, I enjoy spending my free time doing anything active! Ever since I was a kid, sports have always been a huge part of my life. I've played soccer, softball, lacrosse, and just recently started boxing. I'm also part of gym called F45 where the timing of the workouts are short, but the intensity is high! The positive and high-energy environment of this gym really helps me to challenge myself and push past my limits. I would love to share my passion for being active with others and to ultimately inspire others to be active as well... I hope to be able to do this on a larger platform with the knowledge I'll gain from this bootcamp!</p>
+
+        <div class="col-sm-12">
+            <img id="profile" src="assets/images/CpSh33RFRpyuGW2A7wddrQ_thumb_73f 2.jpg" alt="profile" width="190px" height="190px">
+            <p class="biotext">Hello! My name is Nadia and I am an aspiring software developer. I graduated from UCF in May 2018 with a Bachelor's in Finance and have since been working at Lockheed Martin as a Financial Analyst. By nature, I'm a very analytical and organized person- I survive off of logic. I love finding patterns in the work I do... this is one of the main reasons I am so drawn to coding!</p>
+            <p class="biotext">When I'm not working, I enjoy spending my free time doing anything active! Ever since I was a kid, sports have always been a huge part of my life. I've played soccer, softball, lacrosse, and just recently started boxing. I'm also part of gym called F45 where the timing of the workouts are short, but the intensity is high! The positive and high-energy environment of this gym really helps me to challenge myself and push past my limits. I would love to share my passion for being active with others and to ultimately inspire others to be active as well... I hope to be able to do this on a larger platform with the knowledge I'll gain from this bootcamp!</p>
+        </div>
     </div>
 </div>
 
-
-<div class="footer text-muted text-center">
-    <footer>Copyright@</footer>
 </div>
+
+<footer>
+    <p class="customfooter">Copyright &copy;</p>
+</footer>
 
 </body>
 
