@@ -20,6 +20,16 @@ html, body {
     height: 60px;
 }
 
+.customfooter {
+    padding: 20px;
+    border-top: 8px solid rgba(176, 233, 176, 0.767);
+    background-color: grey;
+    color: white;
+    font-size: 12px;
+    text-align: center;
+}
+
+
 body {
     background-image: url(../images/white_background.jpg);
 }
@@ -42,6 +52,7 @@ body {
     margin-left: 70%;
 }
 
+
 .aboutme {
     margin-top: 20px;
     margin-left: 25px;
@@ -55,18 +66,60 @@ body {
 
 #profile {
     float: left;
-    margin: 25px;
+    margin-left: 25px;
+    margin-right: 25px;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 
 .biotext {
-    margin-left: 25px; 
+    margin-left: 25px;
+    margin-right: 25px;
+    margin-top: 10px;
+    margin-bottom: 25px;
 }
 
-.customfooter {
-    padding: 20px;
-    border-top: 8px solid rgba(176, 233, 176, 0.767);
-    background-color: grey;
-    color: white;
-    font-size: 12px;
-    text-align: center;
+
+#portfolio {
+    margin-left: 25px;
+    margin-right: 25px;
+    margin-top: 10px;
+    margin-bottom: 25px;
+    border: 2px grey solid;
+    padding-top: 10px;   
+}
+
+
+.form-group {
+    padding-bottom: 0px;
+    padding-right: 0px;
+    margin-left: 25px;
+    margin-right: 25px;
+}
+
+label {
+    display: block;
+}
+
+input[type="text"], 
+textarea {
+    padding: 5px;
+    width: 100%;
+}
+
+textarea {
+    height: 120px;
+}
+
+input[type="submit"]{
+    background-color: #333;
+    color: #fff;
+    padding: 10px 15px;
+    margin-bottom: 25px;
+    border: none;
+    margin-left: 25px;
+}
+
+input[type="submit"]:hover {
+    background: grey;
 }
