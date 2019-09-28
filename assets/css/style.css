@@ -45,7 +45,7 @@ body {
     background-color: grey;
     color: white;
     padding: 10px;
-    font-size: 30px;
+    font-size: 35px;
     font-family: 'Be Vietnam', sans-serif;
     
 }
@@ -88,7 +88,7 @@ body {
 
 #portfolio {
     margin-left: 25px;
-    margin-right: 25px;
+    margin-right: 70px;
     margin-top: 10px;
     margin-bottom: 25px;
     border: 2px grey solid;
