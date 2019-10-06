@@ -90,11 +90,18 @@ body {
     margin-left: 25px;
     margin-right: 70px;
     margin-top: 10px;
-    margin-bottom: 25px;
-    border: 2px grey solid;
-    padding-top: 10px;   
+    margin-bottom: 5px;
+    border: 2px grey solid;  
 }
 
+#portfolio-link {
+    margin-left: 87px;
+    display: block;
+    margin-bottom: 20px;
+    color: grey;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 19px;
+}
 
 .form-group {
     padding-bottom: 0px;
